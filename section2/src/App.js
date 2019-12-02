@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import StateInAction from './StateInAction';
-import SimpleEvent from './SimpleEvent';
+import StateAndEvent from './StateAndEvent';
+import StatePractice from './StatePractice';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <header className="App-header">
         STRING
         <StateInAction/>
-        <SimpleEvent/>
+        <StateAndEvent/>
+        <StatePractice/>
       </header>
     </div>
   );
